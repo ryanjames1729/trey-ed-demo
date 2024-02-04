@@ -110,7 +110,6 @@ We work with independent schools across the United States through both virtual a
           <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
             <h1 className="text-8xl text-white font-bold">Impacting <span className="text-orange-500">Education</span></h1>
             <h2 className="text-2xl font-bold bg-gradient-to-r from-white via-orange-200 to-orange-500 text-transparent bg-clip-text">
-              
             `&quot;`Trey Education has been a transformative force in my classroom, revolutionizing the way we approach learning. The interactive and dynamic resources provided by Trey Education have not only engaged my students but have also ignited a genuine enthusiasm for learning. The personalized learning paths and innovative tools have empowered each student to progress at their own pace, fostering a sense of ownership over their education. As a teacher, witnessing the positive impact on my students' academic growth and confidence has been truly inspiring. Trey Education has not just brought technology into our classroom; it has brought a new era of excitement and achievement.`&quot;`
               </h2>
             <p></p>
