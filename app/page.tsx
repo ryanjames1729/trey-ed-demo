@@ -24,8 +24,27 @@ export default function Home() {
             <p></p>
           </div>
         </div>
+
+        <div className="h-screen w-screen relative bg-white">
+          <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
+            <h1 className="text-8xl text-black font-bold">Trey <span className="text-orange-500">Education</span></h1>
+            <h2 className="text-2xl font-bold text-slate-500">
+            You are working hard to ensure an outstanding experience for your students and community.
+Let us partner with you in strengthening and supporting your faculty, providing capacity and expertise on your important projects, and ensuring you have what you need to do your job effectively as a school leader.
+We work with independent schools across the United States through both virtual and in-person engagements. At Trey, we customize everything we do for each client; our job is to understand your school's unique contexts, challenges, and strategic goals and partner to help your school towards its mission.
+            </h2>
+            <p></p>
+          </div>
+        </div>
         
-        <div className="h-screen relative bg-slate-600  flex flex-col items-center">
+        <div className="h-screen w-screen relative flex flex-col items-center">
+        <Image 
+            src="/pexels-max-fischer-5212331.jpg" 
+            alt="Trey Education" 
+            layout='fill'
+            objectFit='cover'
+            className="opacity-50"
+          />
           <div className="absolute top-1/2 -translate-y-1/2 mx-auto w-2/3">
             <h1 className="text-8xl text-white font-bold">Our <span className="text-orange-500">Services</span></h1>
             <div className="flex flex-col-4 space-x-4">
@@ -66,6 +85,16 @@ export default function Home() {
                 </p>
               </div> 
             </div>
+            <p></p>
+          </div>
+        </div>
+
+        <div className="h-screen w-screen relative bg-white">
+          <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
+            <h1 className="text-8xl text-black font-bold">Leading <span className="text-orange-500">Education</span></h1>
+            <h2 className="text-2xl font-bold text-slate-500">
+            Over two decades as an independent school educator and academic leader, Meera has mentored teachers, overseen the professional growth of faculty at the department and all-school level, run leadership teams, and shepherded curricular and programmatic change in schools.
+            </h2>
             <p></p>
           </div>
         </div>

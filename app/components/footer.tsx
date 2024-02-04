@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import "../globals.css";
+import Image from "next/image";
 
 export default async function Footer() {
     return (
@@ -20,24 +21,24 @@ export default async function Footer() {
           </div>
         
           <div>
-            <img src="treylogo1.webp" className="h-16" alt="" />
+            <Image src="/treylogo1.webp" alt="Trey Education" width={300} height={300} className="w-64"/>
           </div>
           
           <div className="flex justify-center space-x-4">
            <Link href="https://www.facebook.com">
-              <img src="icon-facebook.svg" alt="" className="h-8" />
+              <Image src="/icon-facebook.svg" alt="" width={50} height={50} className="h-8 w-8"/> 
             </Link>
             <Link href="https://www.youtube.com">
-              <img src="icon-youtube.svg" alt="" className="h-8" />
+              <Image src="/icon-youtube.svg" alt="" width={50} height={50} className="h-8 w-8" />
             </Link>
             <Link href="https://www.twitter.com">
-              <img src="icon-twitter.svg" alt="" className="h-8" />
+              <Image src="/icon-twitter.svg" alt="" width={50} height={50} className="h-8 w-8" />
             </Link>
             <Link href="https://www.pinterest.com">
-              <img src="icon-pinterest.svg" alt="" className="h-8" />
+                <Image src="/icon-pinterest.svg" alt="" width={50} height={50} className="h-8 w-8" />
             </Link>
             <Link href="https://www.instagram.com">
-              <img src="icon-instagram.svg" alt="" className="h-8" />
+                <Image src="/icon-instagram.svg" alt="" width={50} height={50} className="h-8 w-8" />
             </Link>
           </div>
         </div>
