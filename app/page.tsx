@@ -19,16 +19,16 @@ export default function Home() {
             className="opacity-50"
           />
           <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
-            <h1 className="text-8xl text-white font-bold">Trey <span className="text-orange-500">Education</span></h1>
-            <h2 className="text-6xl font-bold bg-gradient-to-r from-white via-orange-200 to-orange-500 text-transparent bg-clip-text">Customized support for independent schools and teachers</h2>
+            <h1 className="text-7xl lg:text-8xl text-white font-bold">Trey <span className="text-orange-500">Education</span></h1>
+            <h2 className="text-3xl lg:text-6xl font-bold bg-gradient-to-r from-white via-orange-200 to-orange-500 text-transparent bg-clip-text">Customized support for independent schools and teachers</h2>
             <p></p>
           </div>
         </div>
 
         <div className="h-screen w-screen relative bg-white">
           <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
-            <h1 className="text-8xl text-black font-bold">Trey <span className="text-orange-500">Education</span></h1>
-            <h2 className="text-2xl font-bold text-slate-500">
+            <h1 className="text-7xl lg:text-8xl text-black font-bold">Trey <span className="text-orange-500">Education</span></h1>
+            <h2 className="text-xl lg:text-2xl font-bold text-slate-500">
             You are working hard to ensure an outstanding experience for your students and community.
 Let us partner with you in strengthening and supporting your faculty, providing capacity and expertise on your important projects, and ensuring you have what you need to do your job effectively as a school leader.
 We work with independent schools across the United States through both virtual and in-person engagements. At Trey, we customize everything we do for each client; our job is to understand your school's unique contexts, challenges, and strategic goals and partner to help your school towards its mission.
@@ -45,10 +45,10 @@ We work with independent schools across the United States through both virtual a
             objectFit='cover'
             className="opacity-50"
           />
-          <div className="absolute top-1/2 -translate-y-1/2 mx-auto w-2/3">
-            <h1 className="text-8xl text-white font-bold">Our <span className="text-orange-500">Services</span></h1>
-            <div className="flex flex-col-4 space-x-4">
-              <div className="bg-orange-500 bg-opacity-70 rounded-md">
+          <div className="absolute lg:top-1/2 lg:-translate-y-1/2 mx-auto w-2/3">
+            <h1 className="text-7xl lg:text-8xl text-white font-bold">Our <span className="text-orange-500">Services</span></h1>
+            <div className="flex flex-col lg:flex-row lg:space-x-4">
+              <div className="bg-orange-500 bg-opacity-70 rounded-md lg:w-1/4 lg:m-0 my-2">
                 <h2 className="text-2xl">Early Career Educators</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -57,7 +57,7 @@ We work with independent schools across the United States through both virtual a
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div> 
-              <div className="bg-orange-500 bg-opacity-70 rounded-md">
+              <div className="bg-orange-500 bg-opacity-70 rounded-md lg:w-1/4 lg:m-0 my-2">
                 <h2 className="text-2xl">Ongoing Techer Growth</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -66,7 +66,7 @@ We work with independent schools across the United States through both virtual a
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div> 
-              <div className="bg-orange-500 bg-opacity-70 rounded-md">
+              <div className="bg-orange-500 bg-opacity-70 rounded-md lg:w-1/4 lg:m-0 my-2">
                 <h2 className="text-2xl">School Leaders</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -75,7 +75,7 @@ We work with independent schools across the United States through both virtual a
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>  
-              <div className="bg-orange-500 bg-opacity-70 rounded-md">
+              <div className="bg-orange-500 bg-opacity-70 rounded-md lg:w-1/4 lg:m-0 my-2">
                 <h2 className="text-2xl">Partner Program Schools</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -91,8 +91,8 @@ We work with independent schools across the United States through both virtual a
 
         <div className="h-screen w-screen relative bg-white">
           <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
-            <h1 className="text-8xl text-black font-bold">Leading <span className="text-orange-500">Education</span></h1>
-            <h2 className="text-2xl font-bold text-slate-500">
+            <h1 className="text-6xl lg:text-8xl text-black font-bold">Leading <span className="text-orange-500">Education</span></h1>
+            <h2 className="text-xl lg:text-2xl font-bold text-slate-500">
             Over two decades as an independent school educator and academic leader, Meera has mentored teachers, overseen the professional growth of faculty at the department and all-school level, run leadership teams, and shepherded curricular and programmatic change in schools.
             </h2>
             <p></p>
@@ -108,9 +108,9 @@ We work with independent schools across the United States through both virtual a
             className="opacity-50"
           />
           <div className="absolute top-1/2 left-1/4 -translate-x-1/4 -translate-y-1/2 px-4">
-            <h1 className="text-8xl text-white font-bold">Impacting <span className="text-orange-500">Education</span></h1>
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-white via-orange-200 to-orange-500 text-transparent bg-clip-text">
-            `&quot;`Trey Education has been a transformative force in my classroom, revolutionizing the way we approach learning. The interactive and dynamic resources provided by Trey Education have not only engaged my students but have also ignited a genuine enthusiasm for learning. The personalized learning paths and innovative tools have empowered each student to progress at their own pace, fostering a sense of ownership over their education. As a teacher, witnessing the positive impact on my students' academic growth and confidence has been truly inspiring. Trey Education has not just brought technology into our classroom; it has brought a new era of excitement and achievement.`&quot;`
+            <h1 className="text-6xl lg:text-8xl text-white font-bold">Impacting <span className="text-orange-500">Education</span></h1>
+            <h2 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-white via-orange-200 to-orange-500 text-transparent bg-clip-text">
+            "Trey Education has been a transformative force in my classroom, revolutionizing the way we approach learning. The interactive and dynamic resources provided by Trey Education have not only engaged my students but have also ignited a genuine enthusiasm for learning. The personalized learning paths and innovative tools have empowered each student to progress at their own pace, fostering a sense of ownership over their education. As a teacher, witnessing the positive impact on my students' academic growth and confidence has been truly inspiring. Trey Education has not just brought technology into our classroom; it has brought a new era of excitement and achievement.""
               </h2>
             <p></p>
           </div>

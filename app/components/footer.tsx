@@ -6,9 +6,44 @@ import Image from "next/image";
 
 export default async function Footer() {
     return (
-     
-    <footer className="bg-orange-600 text-slate-800">
+    <>
+    <footer className="bg-orange-600 text-slate-800 visible h-full lg:invisible lg:h-0">
+        <div
+            className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+        >
+            <div
+            className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+            >
+                <div className="mx-auto my-6 text-center text-white md:hidden">
+                Copyright &copy; 2024, All Rights Reserved
+                </div>
+        
+          <div>
+            <Image src="/treylogo1.webp" alt="Trey Education" width={300} height={300} className="w-64"/>
+          </div>
+          
+          <div className="flex justify-center space-x-4">
+           <Link href="https://www.facebook.com">
+              <Image src="/icon-facebook.svg" alt="" width={50} height={50} className="h-8 w-8"/> 
+            </Link>
+            <Link href="https://www.youtube.com">
+              <Image src="/icon-youtube.svg" alt="" width={50} height={50} className="h-8 w-8" />
+            </Link>
+            <Link href="https://www.twitter.com">
+              <Image src="/icon-twitter.svg" alt="" width={50} height={50} className="h-8 w-8" />
+            </Link>
+            <Link href="https://www.pinterest.com">
+                <Image src="/icon-pinterest.svg" alt="" width={50} height={50} className="h-8 w-8" />
+            </Link>
+            <Link href="https://www.instagram.com">
+                <Image src="/icon-instagram.svg" alt="" width={50} height={50} className="h-8 w-8" />
+            </Link>
+          </div>
+        </div>
+            </div>
+    </footer>
 
+    <footer className="bg-orange-600 text-slate-800 invisible h-0 lg:visible lg:h-auto">
       <div
         className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
       >
@@ -56,7 +91,6 @@ export default async function Footer() {
             <a href="#" className="hover:text-brightRed">Privacy Policy</a>
           </div>
         </div>
-
         
         <div className="flex flex-col justify-between">
           <form>
@@ -79,5 +113,6 @@ export default async function Footer() {
         </div>
       </div>
     </footer>
+    </> 
     )
 }
